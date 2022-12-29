@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import HeadlineCard from "./components/HeadlineCard";
 import Foods from "./components/Foods";
 import Category from "./components/Category";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HeadlineCard/>
       <Foods/>
       <Category/>
+      <Footer/>
     </div>
   );
 }

@@ -12,6 +12,7 @@ function Hero() {
           <h1 className="px-4 text-4xl sm:text-5xl md-:text-6xl lg:text-7xl font-bold">
             <span className="text-orange-500">Foods</span> Delivery
           </h1>
+          <p className="px-4 pt-3 text-xl sm:text-2xl md:text-3xl lg:text-xl font-serif">We are always here to serve you.</p>
         </div>
         <img
           className="w-full max-h-[500px] object-cover"

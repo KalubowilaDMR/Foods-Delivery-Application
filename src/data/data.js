@@ -124,6 +124,36 @@ export const category = [
     {
         id : 1,
         name : "Fast Foods",
-        image : ""
+        image : "https://images.unsplash.com/photo-1672290466661-8332c64aaabb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id : 2,
+        name : "Pizza",
+        image : "https://images.unsplash.com/photo-1672290466584-7ee2d4fc0af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id : 3,
+        name : "Burger",
+        image : "https://images.unsplash.com/photo-1672290466573-82940ee74ec9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id : 4,
+        name : "Rice & Curry",
+        image : "https://images.unsplash.com/photo-1672290466626-754f5815fb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id : 5,
+        name : "Dessets",
+        image : "https://images.unsplash.com/photo-1672290466550-4603089c100d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id : 6,
+        name : "Best Sops",
+        image : "https://images.unsplash.com/photo-1672290466695-59af5e5c1abc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        id : 7,
+        name : "Free Delivery",
+        image : "https://images.unsplash.com/photo-1672290466542-d6a29cf4f8aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
     }
 ];
