@@ -3,7 +3,8 @@ import {AiFillTags, AiOutlineClose, AiOutlineMenu, AiOutlineSearch} from 'react-
 import {BsFillCartFill, BsFillSaveFill} from 'react-icons/bs';
 import {TbTruckDelivery} from 'react-icons/tb';
 import {MdFavorite, MdHelp} from 'react-icons/md';
-import {FaUserFriends, FaWallet} from 'react-icons/fa';
+import {FaUserFriends, FaUserPlus, FaWallet} from 'react-icons/fa';
+import {BiLogIn} from 'react-icons/bi';
 
 const Navbar = () => {
 
@@ -20,8 +21,8 @@ const Navbar = () => {
                 Best <span>Eats</span>
             </h1>
             <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
-                <p className='bg-black text-white rounded-full p-2'>Delivery</p>
-                <p className='p-2'>Pickup</p>
+                <button className='bg-black text-white rounded-full p-2'>Delivery</button>
+                <button className='p-2 border-none'>Pickup</button>
             </div>
         </div>
 
@@ -32,9 +33,17 @@ const Navbar = () => {
         </div> 
 
         {/* card button */}
-        <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full'>
-            <BsFillCartFill size={20} className='mr-2' /> Cart
-        </button>
+        <div className='flex md:flex gap-2'>
+            <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full hover:bg-white hover:border-teal-600 hover:text-teal-600'>
+                <BsFillCartFill size={20} className='mr-2 hover:text-teal-600' /> Cart
+            </button>
+            <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full hover:bg-white hover:border-teal-600 hover:text-teal-600'>
+                <BiLogIn size={20} className='mr-2 hover:text-teal-600' /> Log In
+            </button>
+            <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full hover:bg-white hover:border-teal-600 hover:text-teal-600'>
+                <FaUserPlus size={20} className='mr-2 hover:text-teal-600' /> Sign Up
+            </button>
+        </div>
 
         {/* mobile menu */}
         {/* overlay */}
@@ -61,6 +70,11 @@ const Navbar = () => {
                     <li className='text-xl py-4 flex'><BsFillSaveFill size={25} className='mr-4'/>Best One</li>
                     <li className='text-xl py-4 flex'><FaUserFriends size={25} className='mr-4'/>Invite Friends</li>
                 </ul>
+                    <button className='bg-black flex text-white sm:flex md:flex lg:flex items-center py-2 ml-4 rounded-full justify-center'><BsFillCartFill size={20} className='justify-center items-center mr-2'/> Cart</button>
+                <div className='flex flex-cols gap-2 justify-between p-4'>
+                    <button className='flex md:flex items-center justify-center bg-black text-white py-2 rounded-full'><BiLogIn size={20} className='mr-2'/>Log In</button>
+                    <button className='flex md:flex items-center justify-center bg-black text-white py-2 rounded-full'><FaUserPlus size={20} className='mr-2'/>Sign Up</button>
+                </div>
             </nav>
         </div>
     </div>
